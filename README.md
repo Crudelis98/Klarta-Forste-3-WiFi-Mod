@@ -15,5 +15,14 @@ Numeryczny wskaźnik cząsteczek PM-2,5<br>
 Brak sterowania mobilnego
 
 ## Sterownik Wi-Fi
-To repozytorium ma na celu rozwiązanie jedynej wady wymnienionej w powyżyszym rankingu. Dostępny na [Allegro]('') moduł umożliwia sterowanie urządzeniem z dowolnej przeglądarki.
-![alt text](https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/tasmota.PNG?raw=true)
+To repozytorium ma na celu rozwiązanie jedynej wady wymnienionej w powyżyszym rankingu. Dostępny na [Allegro]('') moduł umożliwia sterowanie urządzeniem oraz odczytywanie pm-2.5 z dowolnej przeglądarki. Wykorzystane zostało otwarte oprogramowanie [TASMOTA](https://tasmota.github.io/docs/) które jest szeroko znane wsród fanów autoamtyki domowej. Ponieżej znajduje się zdjęcie przedstawijące moją klarta.<br>
+<p align="center">
+  <img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/tasmota.PNG?raw=true">
+</p>
+Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany jest między 2 taśmy łaczące wyświetlacz klarty oraz zasilacz i czujnik pyłu. Dzięki temu nie tracimy gwrancji.
+## Możliwości
+- Odczytywanie pm-2.5
+- Oczytywanie trybu (silent, slow, fast, turbo)
+- Oczytywanie czy funkcja anionizacji jest włączona
+- Wszystkie funkcje pilota
+- **!Dodatkowo możliwość wyciszenia dzwięku klarty!**
