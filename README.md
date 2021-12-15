@@ -29,10 +29,20 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 - Oczytywanie czy funkcja anionizacji jest włączona<br>
 - Zdalne sterowanie - wszystkie funkcje pilota<br>
 - **Dodatkowo możliwość wyciszenia dzwięku klarty!**<br>
+
 ## API
-- HTTP - 100%<br>
-#Planowane
+- HTTP - 100%
+
+# Planowane
 - MQTT - 50%<br>
 - Home Assistant autodiscovery - 20%<br>
-- Domoticz - 0%<br>
-##Instalacja
+- Domoticz - 0%
+
+## Instalacja
+
+## Uruchomienie
+Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
+
+## FAQ
+
+
