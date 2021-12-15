@@ -9,7 +9,7 @@ Klarta Forste 3 to jeden z najpopualrnijeszy oczyszczaczy powietrza w Polsce. Za
 - 5 wersji kolorystycznych do wyboru<br>
 - Wysoka opłacalność (relacja ceny do oferowanych możliwości)<br>
 - Niedrogie filtry wymienne (139 zł za komplet z H13)<br>
-= Wskaźnik zużycia filtrów<br>
+- Wskaźnik zużycia filtrów<br>
 - Numeryczny wskaźnik cząsteczek PM-2,5<br>
 - 3-letnia gwarancja<br>
 
