@@ -20,12 +20,19 @@ To repozytorium ma na celu rozwiązanie jedynej wady wymnienionej w powyżyszym 
   <img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/tasmota.PNG?raw=true">
 </p>
 Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany jest między 2 taśmy łaczące wyświetlacz klarty oraz zasilacz i czujnik pyłu. Dzięki temu nie tracimy gwrancji.
-
+<p align="center">
+  <img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/pcb.PNG?raw=true">
+</p>
 ## Możliwości
 - Odczytywanie pm-2.5<br>
 - Oczytywanie trybu (silent, slow, fast, turbo)<br>
 - Oczytywanie czy funkcja anionizacji jest włączona<br>
-- Wszystkie funkcje pilota<br>
-- **!Dodatkowo możliwość wyciszenia dzwięku klarty!**<br>
-
+- Zdalne sterowanie - wszystkie funkcje pilota<br>
+- **Dodatkowo możliwość wyciszenia dzwięku klarty!**<br>
+## API
+- HTTP - 100%<br>
+#Planowane
+- MQTT - 50%<br>
+- Home Assistant autodiscovery - 20%<br>
+- Domoticz - 0%<br>
 ##Instalacja
