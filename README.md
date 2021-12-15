@@ -1,4 +1,4 @@
-# Klarta Forste 3 WiFi Mod
+# Klarta Forste 3 WiFi Mod - repozytorium w budowie
 ## -> English below
 Klarta Forste 3 to jeden z najpopualrnijeszy oczyszczaczy powietrza w Polsce. Zajmuje pierwsze miejsce według strony:
 [Ranking Oczyszczaczy PL](https://ranking-oczyszczaczy.pl/recenzje/klarta-forste-3/)
@@ -16,3 +16,4 @@ Brak sterowania mobilnego
 
 ## Sterownik Wi-Fi
 To repozytorium ma na celu rozwiązanie jedynej wady wymnienionej w powyżyszym rankingu. Dostępny na [Allegro]('') moduł umożliwia sterowanie urządzeniem z dowolnej przeglądarki.
+![alt text](https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/tasmota.PNG?raw=true)
