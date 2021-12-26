@@ -19,7 +19,7 @@ Klarta Forste 3 to jeden z najpopualrnijeszy oczyszczaczy powietrza w Polsce. Za
 
 ## Sterownik Wi-Fi
 To repozytorium ma na celu rozwiązanie jedynej wady wymnienionej w powyżyszym rankingu. Dostępny na [Allegro]('') moduł umożliwia sterowanie urządzeniem oraz odczytywanie pm-2.5 z dowolnej przeglądarki. Wykorzystane zostało otwarte oprogramowanie [TASMOTA](https://tasmota.github.io/docs/) które jest szeroko znane wsród fanów autoamtyki domowej. Ponieżej znajduje się zdjęcie przedstawijące moją klarte.<br>
-> Jestem twórcą modułu oraz sterownika, z chęcią odpowiem na pytania, błedy oraz problemy njelpeij zgłaszać [tutaj](https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/issues).
+> Jestem twórcą modułu oraz sterownika, z chęcią odpowiem na pytania, błedy oraz problemy najlepiej zgłaszać [tutaj](https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/issues).
 <p align="center">
   <img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/tasmota.PNG?raw=true">
 </p>
@@ -45,7 +45,14 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 - Domoticz - 0%
 
 ## Instalacja
+- Odłączyć od zasilania i odczekać.
+- Zdjać przedni panel (zasłanijący filtry).
+- Odkręcić 5 śrub górnego panela.
+- Odkręcić panel wyświetlacza (4 śruby).
+- Odkręcić czarną przysłonę wyświetlacza (3 śruby).
 
+
+> Autor nie bierze żadnej odpowiedzialności.
 ## Uruchomienie
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
