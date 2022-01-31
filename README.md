@@ -67,4 +67,4 @@ Q: Nieprawidłowe hasło do Wi-Fi<br>
 A: Należy zresetować urządzenie, przez kilkukrotne właczenie/wyłącznie urzedzęnie z prądu lub przytrzymać switch na module (nawet 40s).
 
 Q: PM 0 na wyświetlaczu<br>
-A: Mniejsza wtyczka nie jest włożona do końca.
+A: Mniejsza wtyczka nie jest włożona prawidłowo.
