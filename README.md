@@ -63,8 +63,8 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
 ## FAQ
-Q: Nieprawidłowe hasło do Wi-Fi
+Q: Nieprawidłowe hasło do Wi-Fi<br>
 A: Należy zresetować urządzenie, przez kilkukrotne właczenie/wyłącznie urzedzęnie z prądu lub przytrzymać switch na module (nawet 40s).
 
-Q: PM 0 na wyświetlaczu
+Q: PM 0 na wyświetlaczu<br>
 A: Mniejsza wtyczka nie jest włożona do końca.
