@@ -44,6 +44,7 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
   Anion     POST   http://"IP"/kf3?an=1<br>
   Sleep     POST   http://"IP"/kf3?sl=1<br>
   Child Lock     POST   http://"IP"/kf3?cl=1<br>
+  
 **Planowane**
 - MQTT - 50%<br>
 - Home Assistant autodiscovery - 20%<br>
