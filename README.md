@@ -37,8 +37,13 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 
 ## API
 **Gotowe**
-- HTTP - 100%
-
+- HTTP - 100%<br>
+  ON/OFF    POST   http://"IP"/kf3?pw=1<br>
+  Buzzer    POST   http://"IP"/kf3?bz=1<br>
+  Speed     POST   http://"IP"/kf3?sp=1<br>
+  Anion     POST   http://"IP"/kf3?an=1<br>
+  Sleep     POST   http://"IP"/kf3?sl=1<br>
+  Child Lock     POST   http://"IP"/kf3?cl=1<br>
 **Planowane**
 - MQTT - 50%<br>
 - Home Assistant autodiscovery - 20%<br>
@@ -57,3 +62,8 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
 ## FAQ
+Q: Nieprawidłowe hasło do Wi-Fi
+A: Należy zresetować urządzenie, przez kilkukrotne właczenie/wyłącznie urzedzęnie z prądu lub przytrzymać switch na module (nawet 40s).
+
+Q: PM 0 na wyświetlaczu
+A: Mniejsza wtyczka nie jest włożona do końca.
