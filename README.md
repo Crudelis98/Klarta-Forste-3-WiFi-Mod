@@ -57,8 +57,20 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 - Odkręcić panel wyświetlacza (4 śruby).
 - Odkręcić czarną przysłonę wyświetlacza (3 śruby).
 
-
+Finalnie po odkręceniu wszystkich górnych części, należy podłączyć moduł w następujący sposób:
+- dłuższa wtyczka do modułu zasilania.
+- dłuższa taśma między modułerm wifi a wyświtlaczem.
+- krótka taśma do moduły wifi(od czunika pm).
+- krótka wtyczka do modułu wyświetlacza.
+> Uwaga ostatnia wtyczka może stawiać opór i/lub zostać włożona w 2 strony!
+> Dlatego należy pmaiętać aby czerwony przwód znajdował się na pinie 5V (druk PCB).
+- Dioda IR jest zakończona koszulką termokurczliwą, można ją podgrzać aby zacisnęła się na odbiorniku IR modułu wyświetlacza.
 > Autor nie bierze żadnej odpowiedzialności.
+
+Całość powinna prezentować się jak na zdjęciu:
+<p align="center">
+<img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/klarta.jpg?raw=true">
+</p>
 ## Uruchomienie
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
