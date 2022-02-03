@@ -71,6 +71,7 @@ Całość powinna prezentować się jak na zdjęciu:
 <p align="center">
 <img width="500" height="900" src="https://github.com/Crudelis98/Klarta-Forste-3-WiFi-Mod/blob/main/images/klarta.jpg?raw=true">
 </p>
+
 ## Uruchomienie
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
