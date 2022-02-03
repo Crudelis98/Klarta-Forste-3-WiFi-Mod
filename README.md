@@ -86,6 +86,6 @@ Q: Nieprawidłowe hasło do Wi-Fi<br>
 A: Należy zresetować urządzenie, przez kilkukrotne właczenie/wyłącznie urzedzęnie z prądu lub przytrzymać switch na module (nawet 40s).
 
 Q: PM 0 na wyświetlaczu<br>
-A: Odswieżyć przeglądarke.
-A: Klarta przy właczeniu do prądu po uruchumieniu jest domyślnie wyłączona należy ją właczyć używając modułu/pilota/panelu przyciskiem ON/OFF. Dopiero wtedy następuje kalibracja czujnika pm 2.5 i mierzona jest wartość pyłu.
+A: Odswieżyć przeglądarke.<br>
+A: Klarta przy właczeniu do prądu po uruchumieniu jest domyślnie wyłączona należy ją właczyć używając modułu/pilota/panelu przyciskiem ON/OFF. Dopiero wtedy następuje kalibracja czujnika pm 2.5 i mierzona jest wartość pyłu.<br>
 A: Mniejsza wtyczka nie jest włożona prawidłowo.
