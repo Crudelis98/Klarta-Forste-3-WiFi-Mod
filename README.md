@@ -75,6 +75,12 @@ Całość powinna prezentować się jak na zdjęciu:
 ## Uruchomienie
 Dokładnie tak jak [TASMOTA](https://tasmota.github.io/docs/)
 
+- Po prawidłowym podłaćzeniu modułu należy jednorazowo połączyć się z nową siecią Wi-Fi tasmotaXXXXXXX, wcelu konfiguracji Wi-Fi.
+- Powinno nastąpić autoamtyczne przekierowanie, jeżeli to nie nastąpi należy w przeglądarce wpisać adress http://192.168.4.1/ w celu otwarcia kreatora konfiguracji
+- Następnie podać nazwe (SSID) oraz hasło sieci domowej.
+- Kreator poda nowy adres IP urządzenia, jeżeli np. telefon zbyt szybko przeieruje połączenie, można wyszukać urządzenie korzystajac z Advenced IP Scanner
+> https://www.advanced-ip-scanner.com/
+
 ## FAQ
 Q: Nieprawidłowe hasło do Wi-Fi<br>
 A: Należy zresetować urządzenie, przez kilkukrotne właczenie/wyłącznie urzedzęnie z prądu lub przytrzymać switch na module (nawet 40s).
