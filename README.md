@@ -35,20 +35,82 @@ Sterownik został tak skonstruowany aby nie trzeba było go lutować, wpinany je
 - Zdalne sterowanie - wszystkie funkcje pilota<br>
 - **Dodatkowo możliwość wyciszenia dźwięku klarty!**<br>
 
+## Komendy
+
+Komendy można wpisywać w konsoli lub przesyłać przez HTTP i MQTT.
+- KF3Version
+> brak argumentów zwraca JSON z wersją Klarty Forste 3
+> 
+> KF3Version 2 zmienia pracę modułu Wi-Fi na kompatybilną z Klarty Forste 3 v2
+> 
+> KF3Version 4 zmienia pracę modułu Wi-Fi na kompatybilną z Klarty Forste 3 v4
+- KF3Status
+> brak argumentów, zwraca JSON z danymi urządzenia
+- KF3PM
+> brak argumentów, zwraca JSON z PM2.5
+- KF3Power
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3Power 1 włącza urządzenie
+> 
+> KF3Power 0 wyłącza urządzenie
+> 
+> KF3Power TOGGLE przełącznik (włącza urządzenie wyłączane, wyłączone urządzenie włącza)
+- KF3Buzzer
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3Buzzer 1 włącza piszczyk
+> 
+> KF3Buzzer 0 wyłącza piszczyk
+> 
+> KF3Buzzer TOGGLE przełącznik (włącza piszczyk wyłączany, wyłączony piszczyk włącza)
+- KF3Speed
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3Speed TOGGLE przełącznik
+- KF3Anion
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3Anion1 włącza jonizacje powietrza
+> 
+> KF3Anion 0 wyłącza jonizacje powietrza
+> 
+> KF3AnionTOGGLE przełącznik
+- KF3Sleep
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3SleepTOGGLE przełącznik
+- KF3ChildLock
+> brak argumentów, zwraca JSON ze stanem urządzenia
+> 
+> KF3ChildLockTOGGLE przełącznik
+
+
 ## API
 **Gotowe**
 - HTTP - 100%<br>
-  ON/OFF    POST   http://"IP"/kf3?pw=1<br>
-  Buzzer    POST   http://"IP"/kf3?bz=1<br>
-  Speed     POST   http://"IP"/kf3?sp=1<br>
-  Anion     POST   http://"IP"/kf3?an=1<br>
-  Sleep     POST   http://"IP"/kf3?sl=1<br>
-  Child Lock     POST   http://"IP"/kf3?cl=1<br>
-  
+> http://----IP----/cm?cmnd=KOMENDA
+> 
+> np. GET/POST http://192.168.1.162/cm?cmnd=KF3PM
+> 
+> urządzenie odpowie:
+> 
+> {"KF3PM": 2}
+
+- MQTT - 100%<br>
+> cmnd/----TASMOTA_TOPIC----/KOMENDA
+> 
+> np. cmnd/DVES_A8B059_fb/KF3PM
+> 
+> urządzenie odpowie:
+> 
+> {"KF3PM": 2}
+> 
+> pod tym tematem stat/DVES_A8B059_fb/RESULT
+
 **Planowane**
-- MQTT - 50%<br>
-- Home Assistant autodiscovery - 20%<br>
-- Domoticz - 0%
+- Home Assistant autodiscovery - 80%<br>
+- Domoticz - 50%
 
 ## Instalacja
 - Odłączyć od zasilania i odczekać.
